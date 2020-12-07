@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>Joy的部落格</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Exemple d&#39;article présentant la syntaxe et le formatage de base de Markdown pour les éléments HTML.">
+  <meta name="author" content="Joy">
+  <meta name="generator" content="Hugo 0.79.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://JoyC14.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://JoyC14.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://JoyC14.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://JoyC14.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://JoyC14.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://JoyC14.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://JoyC14.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-184842524-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://JoyC14.github.io"><img class="img-fluid"
+          src="https://JoyC14.github.io/images/divelogo.jpg" alt="Joy的部落格"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/profile.php?id=100001514771384"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/joy_c14/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/JoyC14"><i class="ti-github"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://JoyC14.github.io"><img class="img-fluid"
+            src="https://JoyC14.github.io/images/divelogo.jpg" alt="Joy的部落格"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://JoyC14.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://JoyC14.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://JoyC14.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://JoyC14.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/themes"
+          class="text-primary">Themes</a>
+        
+        <a href="/categories/syntax"
+          class="text-primary">Syntax</a>
+        
+        <h2>Guide de syntaxe de Markdown</h2>
+        <div class="mb-3 post-meta">
+          <span>By Hugo Auteurs</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>11 March 2019</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <p>Cet article propose un exemple de syntaxe de base de Markdown pouvant être utilisée dans les fichiers de contenu Hugo. Il indique également si les éléments HTML de base sont décorés avec CSS dans un thème Hugo.</p>
+<h2 id="rubriques">Rubriques</h2>
+<p>Les éléments HTML <code>&lt;h1&gt;</code> —<code>&lt;h6&gt;</code>suivants représentent six niveaux d&rsquo;en-tête de section. <code>&lt;h1&gt;</code> est le niveau de section le plus élevé tandis que <code>&lt;h6&gt;</code> est le plus bas.</p>
+<h1 id="h1">H1</h1>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+<h4 id="h4">H4</h4>
+<h5 id="h5">H5</h5>
+<h6 id="h6">H6</h6>
+<h2 id="paragraphe">Paragraphe</h2>
+<p>Xerum, mais qui est un peu explicite sur le labo. Ace venitatiusda cum, voluptionse latur sitiae dolessi aut paristo nue en vol qui voluptate dolestendit péritin re plis aut quas inctum laceat est volestemque commosa comme date de fin, agent de base Quianimin porecus evelectur, cum que nis noll voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Vérifiez les résultats, notez les réponses, les rapports, les rapports, les chiffres, les chiffres, les chiffres, les chiffres, les chiffres, le temps, le temps, le temps, la durée, le temps, le temps, et le temps, puis le temps.</p>
+<p>Itatur? Quiatae cullecum se souvient de manière automatique dans les archives non-formées. Sapicia est sinveli squiatum, noyau et que aut hariosam ex eat.</p>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>L&rsquo;élément blockquote représente le contenu cité d&rsquo;une autre source, éventuellement avec une citation qui doit figurer dans un élément <code>footer</code> ou<code> cite</code>, et éventuellement avec des modifications en ligne telles que des annotations et des abréviations.</p>
+<h4 id="blockquote-sans-attribution">Blockquote sans attribution</h4>
+<blockquote>
+<p>Tiam, menthe et andaepu dandae nostion secatur sequo quae.
+<strong>Remarque</strong> que vous pouvez utiliser la syntaxe * Markdown * dans un bloc de citation.</p>
+</blockquote>
+<h4 id="blockquote-avec-attribution">Blockquote avec attribution</h4>
+<blockquote>
+<p>Ne communiquez pas en partageant la mémoire, partagez la mémoire en communiquant. <!-- raw HTML omitted --></p>
+<ul>
+<li><!-- raw HTML omitted --> Rob Pike <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <!-- raw HTML omitted --></li>
+</ul>
+</blockquote>
+<h2 id="les-tables">Les tables</h2>
+<p>Les tables ne font pas partie de la spécification Markdown principale, mais Hugo les prend en charge immédiatement.</p>
+<table>
+<thead>
+<tr>
+<th>   Nom</th>
+<th>Âge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>    Bob</td>
+<td>27</td>
+</tr>
+<tr>
+<td>  Alice</td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
+<h4 id="inline-markdown-au-sein-des-tables">Inline Markdown au sein des tables</h4>
+<table>
+<thead>
+<tr>
+<th>En ligne &amp; nbsp; &amp; nbsp; &amp; nbsp;</th>
+<th>Markdown &amp; nbsp; &amp; nbsp; &amp; nbsp;</th>
+<th>Dans &amp; nbsp; &amp; nbsp; &amp; nbsp;</th>
+<th>Tableau</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>* italique *</td>
+<td>** gras **</td>
+<td>~~ barré ~~ &amp; nbsp; &amp; nbsp; &amp; nbsp;</td>
+<td><code>code</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="blocs-de-code">Blocs de code</h2>
+<h4 id="bloc-de-code-avec-backticks">Bloc de code avec backticks</h4>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;title&gt;Exemple de document HTML5 &lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><h4 id="bloc-de-code-indenté-de-quatre-espaces">Bloc de code indenté de quatre espaces</h4>
+<p>    <!-- raw HTML omitted -->
+    <!-- raw HTML omitted -->
+    <!-- raw HTML omitted -->
+      <!-- raw HTML omitted -->
+      <!-- raw HTML omitted -->Exemple de document HTML5<!-- raw HTML omitted -->
+    <!-- raw HTML omitted -->
+    <!-- raw HTML omitted -->
+      <!-- raw HTML omitted -->Test<!-- raw HTML omitted -->
+    <!-- raw HTML omitted -->
+    <!-- raw HTML omitted --></p>
+<h4 id="bloc-de-code-avec-le-shortcode-interne-de-la-surbrillance-de-hugo">Bloc de code avec le shortcode interne de la surbrillance de Hugo</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+  &lt;<span style="color:#f92672">title</span>&gt; Exemple de document HTML5 &lt;/<span style="color:#f92672">title</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
+<h2 id="types-de-liste">Types de liste</h2>
+<h4 id="liste-ordonnée">Liste ordonnée</h4>
+<ol>
+<li>Premier article</li>
+<li>Deuxième élément</li>
+<li>Troisième article</li>
+</ol>
+<h4 id="liste-non-ordonnée">Liste non ordonnée</h4>
+<ul>
+<li>Élément de liste</li>
+<li>Un autre article</li>
+<li>Et un autre article</li>
+</ul>
+<h4 id="liste-imbriquée">Liste imbriquée</h4>
+<ul>
+<li>Article</li>
+</ul>
+<ol>
+<li>Premier sous-article</li>
+<li>Deuxième sous-article</li>
+</ol>
+<h2 id="autres-éléments---abbr-sous-sup-kbd-mark">Autres éléments - abbr, sous, sup, kbd, mark</h2>
+<p><!-- raw HTML omitted -->GIF<!-- raw HTML omitted --> est un format d&rsquo;image bitmap.</p>
+<p>H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O</p>
+<p>X<!-- raw HTML omitted -->n<!-- raw HTML omitted -->+Y<!-- raw HTML omitted -->n<!-- raw HTML omitted -->=Z<!-- raw HTML omitted -->n<!-- raw HTML omitted --></p>
+<p>Appuyez sur <!-- raw HTML omitted --><!-- raw HTML omitted -->CTRL<!-- raw HTML omitted -->+<!-- raw HTML omitted -->ALT<!-- raw HTML omitted -->+<!-- raw HTML omitted -->Supprimer<!-- raw HTML omitted --><!-- raw HTML omitted --> pour mettre fin à la session.</p>
+<p>La plupart des <!-- raw HTML omitted -->salamandres<!-- raw HTML omitted --> sont nocturnes et chassent les insectes, les vers et autres petites créatures.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>La citation ci-dessus est extraite de [conversation] de Rob Pike (<a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">https://www.youtube.com/watch?v=PAAkCSZUG1c</a>) lors de la fête de Gopherfest, le 18 novembre 2015. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "joytravel-1" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://JoyC14.github.io"><img src="https://JoyC14.github.io/images/divelogo.jpg" alt="Joy的部落格"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:0922033504"><i
+                class="ti-mobile mr-3 text-primary"></i>0922033504</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taipei,Taiwan</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:joy23281693@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>joy23281693@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/profile.php?id=100001514771384">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/joy_c14/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/JoyC14">github</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/go-language">Go language</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/syntax">Syntax</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/themes">Themes</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/travel">Travel</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://JoyC14.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://JoyC14.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://JoyC14.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://JoyC14.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://JoyC14.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://JoyC14.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://JoyC14.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://JoyC14.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://JoyC14.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://JoyC14.github.io/plugins/search/mark.js"></script>
+
+<script src="https://JoyC14.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://JoyC14.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

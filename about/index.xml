@@ -7,5 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://JoyC14.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://JoyC14.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://JoyC14.github.io/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.</description>
+    </item>
+    
+    <item>
+      <title>O nas</title>
+      <link>https://JoyC14.github.io/about/index.pl/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://JoyC14.github.io/about/index.pl/</guid>
+      <description>Napisany w Go, Hugo jest generatorem statycznych witryn o otwartym kodzie źródłowym, dostępnym na licencji [Apache License 2.</description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>https://JoyC14.github.io/about/index.pt/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://JoyC14.github.io/about/index.pt/</guid>
+      <description>Escrito em Go, Hugo é um gerador de site estático de código aberto disponível sob a [Apache License 2.</description>
+    </item>
+    
+    <item>
+      <title>À propos de</title>
+      <link>https://JoyC14.github.io/about/index.fr/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://JoyC14.github.io/about/index.fr/</guid>
+      <description>Écrit dans Go, Hugo est un générateur de site statique open source disponible sous la [Apache License 2.</description>
+    </item>
+    
   </channel>
 </rss>
